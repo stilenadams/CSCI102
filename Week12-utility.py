@@ -1,4 +1,7 @@
-
+#
+#Stilen Adams
+#CSCI 102
+#Lab 12
 def PrintOutput(string):
     print("Output",string)
 
@@ -15,6 +18,7 @@ def UpdateString(string1,string2,index):
 def FindWordCount(List,string):
     count=List.count(string)
     print("OUTPUT>",count)
+    
 def ScoreFinder(players,scores,name):
     if name in players:
         
