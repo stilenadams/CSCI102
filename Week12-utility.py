@@ -37,3 +37,8 @@ def Intersection(List1,List2):
     print("OUTPUT>",List3)
     
 def NotIn(List1,List2):
+    List3=[]
+    for i in List1:
+        if i not in List2:
+            List3.append(i)
+    print("OUTPUT>",List3
