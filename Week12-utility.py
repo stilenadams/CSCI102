@@ -35,4 +35,5 @@ def Intersection(List1,List2):
         if i in List2:
             List3.append(i)
     print("OUTPUT>",List3)
-def NotIn
+    
+def NotIn(List1,List2):
